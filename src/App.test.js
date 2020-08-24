@@ -55,11 +55,11 @@ it("renders without crashing", () => {
 });
 
 
-/* it("correctly increment the counter", () => {
+it("correctly increment the counter", () => {
   const mockColor = "david";
   const wrapper = shallow(<App color={mockColor} />);
   wrapper.find('[id="counter"]').simulate("click");
   wrapper.find('[id="counter"]').simulate("click");
   expect(wrapper.state()).toEqual({ count: 3 });
   //expect(wrapper.props().color).toEqual("david");
-}); */
+});
