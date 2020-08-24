@@ -54,6 +54,10 @@ it("renders without crashing", () => {
   expect(toJson(wrapper)).toMatchSnapshot();
 });
 
+it("renders correctly with no error message", () => {
+  const wrapper = mount();
+  expect(wrapper.state("error")).toEqual(null);
+});
 
 it("correctly increment the counter", () => {
   const mockColor = "david";
