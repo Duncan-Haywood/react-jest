@@ -21,13 +21,13 @@ it("renders Account header", () => {
   expect(wrapper.contains(header)).toEqual(true);
 }); 
 
-/*
+
 const user = {
   name: "Adeneye David",
   email: "david@gmail.com",
   username: "Dave",
 };
-
+/*
 describe("<Account />", () => {
   it("contains account", () => {
     const wrapper = mount(<Account user={user} />);
