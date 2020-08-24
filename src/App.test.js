@@ -34,7 +34,6 @@ describe("<Account />", () => {
     const value = wrapper.find("p").text();
     expect(value).toEqual("david@gmail.com");
   });
-
   it("accepts user account props", () => {
     const wrapper = mount(<Account user={user} />);
     expect(wrapper.props().user).toEqual(user);
@@ -49,12 +48,12 @@ it("renders welcome message", () => {
 });
  
 
-/* it("renders without crashing", () => {
+it("renders without crashing", () => {
   const mockColor = "David";
   const wrapper = shallow(<App color={mockColor} />);
   expect(toJson(wrapper)).toMatchSnapshot();
 });
- */
+
 
 /* it("correctly increment the counter", () => {
   const mockColor = "david";
