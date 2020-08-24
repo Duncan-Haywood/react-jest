@@ -27,9 +27,9 @@ const user = {
   email: "david@gmail.com",
   username: "Dave",
 };
-/*
+
 describe("<Account />", () => {
-  it("contains account", () => {
+  it("contains account email", () => {
     const wrapper = mount(<Account user={user} />);
     const value = wrapper.find("p").text();
     expect(value).toEqual("david@gmail.com");
@@ -41,13 +41,13 @@ describe("<Account />", () => {
   });
 });
 
- it("renders welcome message", () => {
+it("renders welcome message", () => {
   const wrapper = shallow(<App />);
   const welcome = <h2>Welcome to React Testing</h2>;
   // expect(wrapper.contains(welcome)).toBe(true);
   expect(wrapper.contains(welcome)).toEqual(true);
 });
- */
+ 
 
 /* it("renders without crashing", () => {
   const mockColor = "David";
